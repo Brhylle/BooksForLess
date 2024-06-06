@@ -45,7 +45,7 @@
             position: sticky;
             top: 0;
             z-index: 10;
-            height: 64px; /* Set a consistent height */
+            height: 64px; 
         }
         .logo {
             width: 100px;
@@ -128,15 +128,15 @@
         .admin-box {
             display: flex;
             align-items: center;
-            padding: 0.5rem 1rem; /* Adjusted padding for better spacing */
+            padding: 0.5rem 1rem; 
             border: 1px solid var(--border-color);
             border-radius: 0.25rem;
-            background-color: var(--admin-box-bg); /* Use the variable for background color */
+            background-color: var(--admin-box-bg); 
             color: var(--top-nav-color);
-            height: 100%; /* Match the height of top-nav */
+            height: 100%; 
         }
         .admin-box span {
-            margin-right: 0.5rem; /* Add spacing between name and caret */
+            margin-right: 0.5rem;
         }
     </style>
 </head>
